@@ -17,3 +17,6 @@ The purpose of this repository is to track learning progress, demonstrate practi
 ## Note
 
 This repository is intended for personal learning and reference. It may contain code examples and exercises directly related to the course curriculum at Instant Academy.
+
+## Preview
+https://abdallah-el-sawy.github.io/Instant_Tasks/Instant/FrontEnd/Session2/Assignment/index.html

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register Page</title>
+  <link rel="icon" href="../../../img/Register_Icon.png" type="image/x-icon" />
+</head>
+<body style="background-color: beige;">
+
+  <h1 id="top"> <center>Register Page   
+      <img src="../../../img/Register_Icon.png" alt="Register Icon" style="display: block; width: 150px; height: 150px;">
+    </center> </h1>
+  
+  
+  <fieldset>
+    <legend> <h2>Personal Information</h2> </legend>
+
+    <form action="login.html">
+      <label for="fname">First Name: </label>
+      <br>
+      <input type="text" id="fname" name="fname" placeholder="Enter Your First Name..." required style="height: 20px; width: 200px;">
+      <br><br>
+
+      <label for="lname">Last Name: </label>
+      <br>
+      <input type="text" id="lname" name="lname" placeholder="Enter Your Last Name..." required style="height: 20px; width: 200px;">
+      <br><br>
+
+      <label for="birth">Date of Birth: </label>
+      <br>
+      <input type="date" id="birth" name="birth" required style="height: 20px; width: 200px;">
+      <br><br>
+
+      <label for="age">Age: </label>
+      <br>
+      <input type="number" id="age" name="age" placeholder="Enter Your Age..." min="18" max="35" required style="height: 20px; width: 200px;"> 
+      <br><br>
+
+      <fieldset>
+        <legend>Gender</legend>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female " required> 
+        <label for="female  ">Female</label>
+        <input type="radio" id="other" name="gender" value="other" required>  
+        <label for="other">Other</label>
+      </fieldset>
+      <br>
+
+      <fieldset>
+        <legend>Interested </legend>
+        <label for="sports"> Sports </label>
+        <input type="checkbox" name="interested" id="sports" value="sports">
+
+        <label for="music"> Music </label>
+        <input type="checkbox" name="interested" id="music" value="music">
+
+        <label for="movies"> Movies </label>
+        <input type="checkbox" name="interested" id="movies" value="movies">
+
+        <label for="travel"> Travel </label>
+        <input type="checkbox" name="interested" id="travel" value="travel">
+      </fieldset>
+      <br>
+
+      <label for="country">Country: </label>
+      <br>
+      <select id="country">
+        <option value="EGY" selected>Egypt</option>
+        <option value="usa">USA</option>
+        <option value="canada">Canada</option>
+        <option value="uk">UK</option>
+        <option value="australia">Australia</option>
+        <option value="india">India</option>
+      </select>
+      <br><br>
+
+      <label for="phone">Phone Number: </label>
+      <br>
+      <input type="tel" id="phone" name="phone" placeholder="Enter Your Phone Number..." required style="height: 20px; width: 200px;">
+      <br><br>
+
+
+      <label for="email">Email: </label>
+      <br>
+      <input type="email" id="email" name="email" placeholder="Enter Your Email..." required style="height: 20px; width: 200px;">
+      <br><br>
+
+      <label for="password">Password: </label>
+      <br>
+      <input type="password" id="password" name="password" placeholder="Enter Your Password..." min="8" max="25" required style="height: 20px; width: 200px;">
+      <br><br>
+
+      <label for="c_password">Confirm Password: </label>
+      <br>
+      <input type="password" id="c_password" name="c_password" placeholder="Confirm Your Password..." min="8" max="25" required style="height: 20px; width: 200px;">
+      <br><br>
+
+      <label for="bio">Bio: </label>
+      <br>
+      <textarea id="bio" name="bio" placeholder="Write Something About Yourself..." rows="4" cols="50" required></textarea>
+      <br><br>
+
+
+  <center> 
+    <button type="submit" style="background-color: rgb(14, 139, 255); color: white; width: 75px; height:25px;" > <b>Register</b> </button>
+
+      <button type="reset" style="background-color: rgb(243, 5, 5); color: white; margin-left: 20px; width: 80px; height:25px;" > <b>Reset</b> </button>
+  </center>  
+
+
+    </form>
+  </fieldset>
+  <br><br>
+
+  
+
+      
+      <p style="margin-left: 620px;"> <b>Already Have An Account?  <a href="login.html">Login Here</a> </b></p>
+      
+
+</body>
+</html>

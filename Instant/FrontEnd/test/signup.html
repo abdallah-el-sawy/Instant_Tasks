@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SignUp Form</title>
+</head>
+<body style="background-color: #f0f0f0;">
+  <h1><center><mark> SignUp Form </mark></center></h1>
+
+  <fieldset>   
+    <legend><h2>Personal Information</h2></legend> 
+    
+    <form action="login.html">
+      <label for="f_name">First Name:</label>
+      <input type="text" name="f_name" id="f_name" placeholder="Enter Your First Name" required>
+      <br><br>
+
+      <label for="l_name">Last Name:</label>
+      <input type="text" name="l_name" id="l_name" placeholder="Enter Your Last Name">
+      <br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
+      <br><br>
+
+      <label for="password">Password:</label>
+      <input type="password" name="password" id="password" placeholder="Enter Your Password" required>
+      <br><br>
+
+      <label for="c_password">Confirm Password:</label>
+      <input type="password" name="c_password" id="c_password" placeholder="Confirm Your Password" required>
+      <br><br>
+
+      <label for="date">Date of Birth:</label>
+      <input type="date" name="date" id="date">
+      <br><br>
+
+      <label for="age">Age:</label>
+      <input type="number" name="age" id="age" placeholder="Enter Your Age" min="14" max="30" required>
+      <br><br>
+
+      <fieldset>
+        <legend><h2>Gender</h2></legend>
+
+        <label for="male"> Male </label>
+        <input type="radio" name="gender" id="male" value="male">
+
+        <label for="female"> Female </label>
+        <input type="radio" name="gender" id="female" value="female"> 
+
+        <label for="other"> Other </label>
+        <input type="radio" name="gender" id="other" value="other">
+      </fieldset>
+
+      <fieldset>
+        <legend><h2>interested</h2></legend>
+
+        <label for="sports"> Sports </label>
+        <input type="checkbox" name="interested" id="sports" value="sports">  
+
+        <label for="music"> Music </label>
+        <input type="checkbox" name="interested" id="music" value="music">
+
+        <label for="movies"> Movies </label>
+        <input type="checkbox" name="interested" id="movies" value="movies">
+
+      </fieldset>
+      <br><br>
+
+      <label for="country">Country:</label>
+      <select name="country" id="country">
+        <option value="egypt" selected>Egypt</option>
+        <option value="usa">USA</option>
+        <option value="uk">UK</option>
+        <option value="germany">Germany</option>
+        <option value="france">France</option>
+      </select>
+      <br><br>
+
+      <label for="bio"> Your BIO </label>
+      <textarea name="bio" id="bio" placeholder="Enter Your Bio"></textarea>
+      <br><br>
+    </form>
+  </fieldset>  
+  <br>
+  
+      <center> <button type="submit">Submit</button> </center>
+
+</body>
+</html>

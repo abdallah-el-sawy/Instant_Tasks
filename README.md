@@ -19,4 +19,4 @@ The purpose of this repository is to track learning progress, demonstrate practi
 This repository is intended for personal learning and reference. It may contain code examples and exercises directly related to the course curriculum at Instant Academy.
 
 ## Preview
-https://abdallah-el-sawy.github.io/Instant/FrontEnd/index.html
+https://abdallah-el-sawy.github.io/Instant_Tasks/Instant/FrontEnd/index.html

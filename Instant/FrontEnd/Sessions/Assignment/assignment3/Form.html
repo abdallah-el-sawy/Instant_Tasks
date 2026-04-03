@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Information</title>
+</head>
+<body>
+  <fieldset style="background-color:bisque;">
+    <legend> <mark>Personal Data</mark> </legend>
+    <br><br><br>
+
+    <form action="Form.html">
+      <fieldset style="background-color:rgb(255, 255, 255);">
+        <legend><mark> <b>Your Name</b>  </mark></legend>
+
+        <label for="fname">First name:</label>
+        <br>
+        <input type="text" name="fname" placeholder="Abdallah" required>
+        
+        <br><br>
+
+        <label for="lname">Last name:</label>
+        <br>
+        <input type="text" name="lname" placeholder="Elsawy">
+      </fieldset>
+      <br><br>
+
+      <label for="phone">Phone Number:</label>
+      <br>
+      <input type="tel" name="phone" placeholder="+20 100 100 1000">
+
+      <br><br>
+
+      <label for="email">Email: </label>
+      <br>
+      <input type="email" name="email" placeholder="someone@example.com" required>
+      <br><br>
+
+      <label for="password">Password: </label>
+      <br>
+      <input type="password" name="password" placeholder="********" required>
+      <br><br>
+
+      <label for="gender">Gender: </label>
+      <br>
+      <input type="radio" name="gender" value="male">
+      <label for="male"> Male</label>
+
+      <input type="radio" name="gender" value="female"> 
+      <label for="female"> Female</label>
+      <br><br>
+
+
+      <label for="color">Favourite Color: </label>
+
+      <input type="checkbox" name="red">
+      <label for="red"> Red</label>
+
+      <input type="checkbox" name="green">
+      <label for="green"> Green</label>
+      <br><br>
+
+      <!-- disabled	disabled	Specifies that a drop-down list should be disabled -->
+      <select>
+
+        <option value="EGY" disabled>Egypt : </option>
+        <option value="Cairo" selected>Cairo</option>
+        <option value="Alex">Alexanderia</option>
+        <option value="Tanta">Tanta</option>
+
+        <option value="KSA" disabled>Saudi Arabia : </option>
+        <option value="Riyadh">Riyadh</option>
+        <option value="Jeddah">Makka</option>
+        <option value="MM">Madina ElMonawara</option>
+
+        <option value="UAE" disabled>United Arab Emirates : </option>
+        <option value="Dubai">Dubai</option>
+        <option value="AbuDhabi">Abu Dhabi</option>
+        <option value="Sharjah">Sharjah</option>
+
+      </select>
+
+      <br><br>
+
+      <input type="submit" value="Submit">
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+
+
+  </fieldset>
+  
+</body>
+</html>

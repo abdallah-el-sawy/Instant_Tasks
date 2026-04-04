@@ -1,0 +1,366 @@
+*{
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Navbar */
+
+.first-part{
+  background-image: url("../../../../img/nature.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 90vh;
+}
+
+.first-part .navbar .container1 ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+.first-part .navbar .container1 ul li a:hover{
+  color:goldenrod;
+}
+
+
+
+.first-part .navbar .container1 a img{
+  width: 50px;
+  height: 50px;
+  margin: 20px 600px 0px 160px;
+  
+}
+
+.first-part .navbar .container1 ul{
+  list-style: none;
+  display: inline-block;
+}
+
+.first-part .navbar .container1 ul li{
+  display: inline-block;
+  margin: 0px 20px 0px 20px;
+}
+
+.first-part .navbar .container1 ul li button{
+  width: 170px;
+  height: 50px;
+  background-color: transparent;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 5%;
+}
+
+.first-part .navbar .container1 ul li button:hover{
+  border-color: goldenrod;
+}
+
+.first-part .navbar .container1 ul li button a{
+  padding: 5px;
+}
+
+
+/* Container-> Text */
+
+.first-part .container1-1{
+  text-align: center;
+  color: white;
+  margin: 170px 0px 0px 0px;
+}
+
+.first-part .container1-1 h2{
+  font-size: 50px;
+}
+
+.first-part .container1-1 h1{
+  font-size: 90px;
+}
+
+.first-part .container1-1 p{
+  font-size: 18px;
+  margin: 10px 0px 20px 0px;
+}
+
+.first-part .container1-1 button{
+  background-color: rgb(231, 183, 62);
+  color: #536942;
+  text-align: center;
+  width: 150px;
+  height: 50px;
+  border: none;
+  border-radius: 4%;
+  cursor: pointer;
+}
+
+.first-part .container1-1 button:hover{
+  transition: 0.2s;
+  background-color: goldenrod;
+  color: #536942;
+  border: 1px solid goldenrod;
+}
+
+
+/* Section 2 */
+
+.second-part .container2{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.second-part .container2 h2{
+  text-align: center;
+  color: #536942;
+  font-size: 40px;
+  margin: 50px 0px 20px 0px;
+}
+
+.second-part .container2 hr{
+  margin: 0px 0px 20px 710px;
+  width: 100px;
+  height: 2px;
+  background-color: gold;
+  border: none;
+}
+
+.second-part .container2 .item{
+  display: inline-block;
+  margin: 40px 0px 0px 30px;
+}
+
+.second-part .container2 .item img{
+  width: 350px;
+  height: 450px;
+}
+
+.second-part .container2 .item h3{
+  color: #536942;
+  font-size: 20px;
+}
+
+.second-part .container2 .item p{
+  color: #6d8a57;
+  font-size: 16px;
+  margin: 10px 0px 0px 0px;
+}
+
+
+/* Third Section */
+
+.third-part{
+  background-color: #f8fdf4de;
+}
+
+.third-part .container3{
+  text-align: center;
+  padding: 50px 0px 50px 0px;
+}
+
+.third-part .container3 p b{
+  font-size: 75px;
+  color: #c4cfbbdc;
+}
+
+.third-part .container3 p{
+  font-size: 30px;
+  color: #3e5031;
+  margin: 20px 0px 50px 0px;
+}
+
+.third-part .container3 img{
+  width: 55px;
+  height: 55px;
+  margin: 0px 0px 8px 0px;
+}
+
+.third-part .container3 h3{
+  font-size: 15px;
+  color: #3e5031;
+  margin: 0px 0px 25px 0px;
+}
+
+
+/* 4th Section */
+
+.fourth-section .container4 .item1{
+  vertical-align: top;
+  display: inline-block;
+  margin: 170px 150px 0px 160px;
+  width: 500px;
+}
+
+.fourth-section .container4 .item1 p{
+  margin: 0px 0px 0px 90px;
+  color: #6d8a57;
+  font-size: 15px;
+}
+
+.fourth-section .container4 .item1 h2{
+    margin: 20px 0px 0px 90px;
+    color: #536c42;
+    font-size: 30px;
+}
+
+.fourth-section .container4 .item1 pre{
+    margin: 20px 0px  30px 50px;
+    font-size: 18px;
+    color:#6f8b5a;
+}
+
+.fourth-section .container4 .item1 .btn{
+  text-align: center;
+  text-decoration: none;
+  margin: 30px 0px 60px 90px;
+  padding: 15px;
+  width: 150px;
+  height: 15px;
+  background-color: transparent;
+  color: #6f8b5a;
+  border: 1px solid #6f8b5a;
+  border-radius: 5%;
+  cursor: pointer; 
+}
+
+.fourth-section .container4 .item1 .btn:hover{
+  border: 1px solid rgb(148, 218, 43);
+  color: rgb(148, 218, 43);
+  transition: 0.2s;
+}
+
+.fourth-section .container4 .item2{
+  display: inline-block;
+  text-align: right;
+  margin: 90px 0px 90px 50px;
+  width: 500px;
+}
+
+.fourth-section .container4 .item2 img{
+  margin: 0px 0px 0px 0px;
+  width: 400px;
+  height: 500px;
+}
+
+
+/* 5th Section */
+
+.fifth-section{
+  background-image: url('../../../../img/Nature2.jpg');
+  height: 65vh;
+  margin: 0px 0px 20px 0px;
+}
+
+.fifth-section .container5{
+  text-align: center;
+}
+
+.fifth-section .container5 h2{
+  padding: 120px 0px 35px 0px;
+  font-size: 60px;
+  color:#536c42;
+}
+
+.fifth-section .container5 p{
+  font-size: 16px;
+  color:#536942;
+  margin: 0px 0px 50px 0px;
+}
+
+.fifth-section .container5 .btn{
+  text-decoration: none;
+  background-color: gold;
+  color: #536942;
+  border: none;
+  border-radius: 5%;
+  padding: 15px 30px ;
+}
+
+.fifth-section .container5 .btn:hover{
+  background-color: goldenrod;
+  transition: 0.2s;
+}
+
+
+/* Final Section */
+
+.footer{
+  height: 15vh;
+}
+
+.footer .container6 .left{
+  vertical-align: top;
+  display: inline-block;  
+}
+
+.footer .container6 .left ul{
+  list-style: none;
+  display: inline-block;
+  margin: 20px 50px 0px 170px;
+}
+
+.footer .container6 .left ul li{
+  display: inline-block;
+  margin: 30px 0px 0px 15px;
+}
+
+.footer .container6 .left ul li a{
+  text-decoration: none;
+  color:#536942;
+}
+
+.footer .container6 .left a:hover{
+  color: #96b57f;
+}
+
+.footer .container6 .center{
+  vertical-align: top;
+  display: inline-block;
+}
+
+.footer .container6 .center img{
+  width: 50px;
+  height: 50px;
+  margin: 0px 0px 0px 240px;
+  padding: 30px 0px 0px 0px;
+}
+
+.footer .container6 .right{
+  display: inline-block;
+  vertical-align: top;
+  margin: 50px 0px 0px 330px;
+  font-size: 16px;
+  color:#536942;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

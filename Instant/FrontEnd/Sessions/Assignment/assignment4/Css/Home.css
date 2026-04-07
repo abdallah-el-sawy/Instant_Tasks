@@ -33,6 +33,8 @@
 }
 
 .first-part .navbar .container1 ul{
+  vertical-align: top;
+  margin: 30px 0px 0px 150px;
   list-style: none;
   display: inline-block;
 }
@@ -182,13 +184,14 @@
 
 .fourth-section .container4 .item1{
   vertical-align: top;
+  margin: 20px 0px 0px 90px;
   display: inline-block;
-  margin: 170px 150px 0px 160px;
+
   width: 500px;
 }
 
 .fourth-section .container4 .item1 p{
-  margin: 0px 0px 0px 90px;
+  margin: 50px 0px 0px 90px;
   color: #6d8a57;
   font-size: 15px;
 }
@@ -227,8 +230,9 @@
 
 .fourth-section .container4 .item2{
   display: inline-block;
+  vertical-align: top;
   text-align: right;
-  margin: 90px 0px 90px 50px;
+  margin: 30px 0px 50px 50px;
   width: 500px;
 }
 
@@ -315,10 +319,9 @@
 }
 
 .footer .container6 .center img{
-  width: 50px;
-  height: 50px;
-  margin: 0px 0px 0px 240px;
-  padding: 30px 0px 0px 0px;
+  width: 60px;
+  height: 60px;
+  margin: 30px 0px 0px 240px;
 }
 
 .footer .container6 .right{
@@ -328,6 +331,8 @@
   font-size: 16px;
   color:#536942;
 }
+
+
 
 
 

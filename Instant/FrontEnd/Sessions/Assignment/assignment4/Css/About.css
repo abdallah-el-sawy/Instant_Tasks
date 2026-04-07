@@ -1,0 +1,195 @@
+*{
+  font-family: 'Playfair Display';
+  margin: 0px;
+  padding: 0px;
+
+}
+
+/* First Section */
+
+.first-part{
+  height: 60vh;
+  background-image:url('https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2021/11/header-hero-1.jpg') ;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.first-part .navbar .container1 ul{
+  vertical-align: top;
+  margin: 30px 0px 0px 150px;
+  list-style: none;
+  display: inline-block;
+}
+
+.first-part .navbar .container1 ul li{
+  margin: 0px 40px 0px 0px;
+  display: inline-block;
+}
+
+.first-part .navbar .container1 ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.first-part .navbar .container1 ul li a:hover{
+  color: rgb(0, 0, 0);
+}
+
+
+.first-part .navbar .container1 ul li .btn{
+  padding: 15px 20px 15px 20px;
+  border: 1px solid;
+  border-radius:5% ;
+}
+
+.first-part .navbar .container1 a img{
+  vertical-align: top;
+  width: 60px;
+  height: 60px;
+  margin: 20px 600px 0px 160px;
+}
+
+.first-part .container1-1 h1{
+  text-align: center;
+  margin: 100px 0px 0px 0px;
+  font-size: 70px;
+  color: white;
+}
+
+
+/* Second Part */
+
+.second-part{
+  margin: 5% 0% 5% 0%;
+}
+
+.second-part .container2 .container2-1 h2{
+  text-align: center;
+  font-size: 33px;
+  color: #476047;
+  margin: 0px 0px 50px 0px;
+}
+
+.second-part .container2 .container2-2{
+  text-align: center;
+}
+
+.second-part .container2 .container2-2 img{
+  width: 70%;
+  height: 70%;
+}
+
+.second-part .container2 .container2-left{
+  margin: 30px 0px 0px 15%;
+  display: inline-block;
+  text-align: center;
+}
+
+.second-part .container2 .container2-left h2{
+  color:#476047;
+}
+
+.second-part .container2 .container2-left p{
+  font-size: 18px;
+  color:#6f8b6f;
+
+}
+
+.second-part .container2 .container2-right{
+  display: inline-block;
+  margin: 0px 0px 0px 5%;
+  text-align: center;
+}
+
+.second-part .container2 .container2-right h2{
+    color:#476047;
+}
+
+.second-part .container2 .container2-right p{
+  font-size: 18px;
+  color:#6f8b6f;
+}
+
+/* Third Part */
+.third-part .container3{
+  background-color: #f8fdf4de;
+  margin: 0px 0px 30px 0px;
+  padding: 0% 0% 0% 0%;
+  height: 60vh;
+  text-align: center;
+}
+
+.third-part .container3 p{
+  font-size: 27px;
+  line-height: 1.6;
+}
+
+.third-part .container3 p b{
+  margin: 0% 0% 0% 0%;
+  font-size: 90px;
+  font-weight: 400;
+  color: #6f8b6f;
+}
+
+.third-part .container3 img{
+  width: 55px;
+  height: 55px;
+}
+
+.third-part .container3 h3{
+  font-size: 15px;
+  color: #5d774a;
+  font-weight: 400;
+}
+
+/* Last Part */
+
+.footer .container4 .left{
+  display: inline-block;
+  margin: 0% 0% 0% 10%;
+  padding: 0px 30px 0px 0px;
+}
+
+.footer .container4 .left ul{
+  list-style: none;
+  display: inline-block;
+  margin: 0% 0% 0% 0% ;
+}
+
+.footer .container4 .left ul li{
+  display: inline-block;
+  margin: 0px 0px 0px 15px;
+}
+
+.footer .container4 .left ul li a{
+  text-decoration: none;
+  color: #256b3f;
+  font-size: 17px;
+}
+
+.footer .container4 .left ul li a:hover{
+  color: #000000;
+}
+
+.footer .container4 .center {
+  display: inline-block;
+  text-align: center;
+  margin: 0px 0px 0px 16%;
+}
+
+.footer .container4 .center img{
+  width: 60px;
+  height: 60px;
+}
+
+.footer .container4 .right{
+  display: inline-block;
+  margin: 0px 0px 0px 27%;
+}
+
+.footer .container4 .right p{
+  color: #256b3f;
+  font-size: 17px;
+}
+

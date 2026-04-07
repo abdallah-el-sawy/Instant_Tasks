@@ -1,0 +1,339 @@
+*{
+  font-family: 'Playfair Display';
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.first-part{
+  height: 60vh;
+  background-image:url('../../../../img/services.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0px 0px 90px 0px;
+}
+
+.first-part .navbar .container1 ul{
+  vertical-align: top;
+  margin: 30px 0px 0px 150px;
+  list-style: none;
+  display: inline-block;
+}
+
+.first-part .navbar .container1 ul li{
+  margin: 0px 40px 0px 0px;
+  display: inline-block;
+}
+
+.first-part .navbar .container1 ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.first-part .navbar .container1 ul li a:hover{
+  color: rgb(53, 164, 255);
+  transition: 0.2s;
+}
+
+
+.first-part .navbar .container1 ul li .btn{
+  padding: 15px 20px 15px 20px;
+  border: 1px solid;
+  border-radius:5% ;
+}
+
+.first-part .navbar .container1 a img{
+  vertical-align: top;
+  width: 60px;
+  height: 60px;
+  margin: 20px 600px 0px 160px;
+}
+
+.first-part .container1-1 h1{
+  text-align: center;
+  margin: 100px 0px 0px 0px;
+  font-size: 90px;
+  color: white;
+}
+
+
+/* Second Section */
+.second-part {
+  margin: 160px 0px 0px 0px;
+}
+.second-part .container2 .left{
+  width: 40%;
+  display: inline-block;
+
+}
+
+.second-part .container2 .left h2{
+  text-align: right;
+  margin: 50px 60px 0px 0px;
+  font-size: 40px;
+  color: #536942;
+}
+
+.second-part .container2 .left .title1{
+  text-align: right;
+  margin: 50px 315px 0px 0px;
+  font-size: 15px;
+  color: #536942;
+  
+}
+
+.second-part .container2 .left .title2{
+  text-align: right;
+  margin: 50px 245px 0px 0px;
+  font-size: 15px;
+  color: #536942;
+}
+
+.second-part .container2 .left .title3{
+  text-align: right;
+  margin: 50px 290px 0px 0px;
+  font-size: 15px;
+  color: #536942;
+}
+
+.second-part .container2 .left .content1{
+  text-align: right;
+  margin: 10px 230px 0px 0px;
+  font-size: 20px;
+  color: #536942;
+}
+
+.second-part .container2 .left .content2{
+  text-align: right;
+  margin: 10px 250px 0px 0px;
+  font-size: 20px;
+  color: #536942;
+}
+
+.second-part .container2 .left .content3{
+  text-align: right;
+  margin: 10px 20px 0px 0px;
+  font-size: 20px;
+  color: #536942;
+}
+
+.second-part .container2 .left .twt,
+.second-part .container2 .left .insta,
+.second-part .container2 .left .yt{
+  background-color: #536941;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px; 
+  display: inline-block;
+  text-align: center;
+  margin: 60px 20px 0px 0px;
+  cursor: pointer;
+}
+
+
+.second-part .container2 .left .twt:hover,
+.second-part .container2 .left .insta:hover,
+.second-part .container2 .left .yt:hover{
+  opacity: 0.9;
+  transition: 0.2s;
+}
+
+
+.second-part .container2 .left .twt{
+  margin: 0px 10px 0px 300px;
+}
+
+.second-part .container2 .left .twt a img,
+.second-part .container2 .left .insta a img{
+  margin-top: 10px;
+  width: 25px;
+  height: 25px;
+}
+
+.second-part .container2 .left .yt a img{
+  margin-top: 15px;
+  width: 25px;
+  height: 25px;
+  vertical-align: bottom;
+}
+
+
+.second-part .container2 .right{
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+  margin: 30px 0px 0px 12%;;
+}
+
+.second-part .container2 .right h2{
+  color: #536942;
+  text-align: center;
+  margin: 20px 380px 50px 0px;
+  font-size: 40px;
+}
+
+.second-part .container2 .right input[type^='t']{
+  margin: 0px 0px 0px 0px;
+  width: 80%;
+  height: 40px;
+  border-radius: 5px;
+  background-color: rgba(83, 105, 66 ,0.1);
+  border-color: rgba(179, 226, 143, 0.1);
+  font-size: 18px;
+  color: rgb(83, 105, 66 );
+}
+
+.second-part .container2 .right input[type^='t']::placeholder{
+  font-size: 18px;
+  color: rgba(83, 105, 66 , 0.5);
+  padding-left: 10px;
+}
+
+.second-part .container2 .right input[type^='e']{
+  margin: 0px 0px 0px 0px;
+  width: 80%;
+  height: 40px;
+  border-radius: 5px;
+  background-color: rgba(83, 105, 66 ,0.1);
+  border-color: rgba(179, 226, 143, 0.1);
+  font-size: 18px;
+  color: rgb(83, 105, 66 );
+}
+
+.second-part .container2 .right input[type^='e']::placeholder{
+  font-size: 18px;
+  color: rgba(83, 105, 66 , 0.5);
+  padding-left: 10px;
+}
+
+.second-part .container2 .right textarea{
+  margin: 0px 0px 0px 0px;
+  width: 80%;
+  height: 100px;
+  border-radius: 5px;
+  background-color: rgba(83, 105, 66 ,0.1);
+  border-color: rgba(179, 226, 143, 0.1);
+  font-size: 18px;
+  color: rgb(83, 105, 66 );
+}
+
+.second-part .container2 .right textarea::placeholder{
+  font-size: 18px;
+  color: rgba(83, 105, 66 , 0.5);
+  padding: 10px 0px 0px 10px;
+}
+
+.second-part .container2 .right button{
+  width: 150px;
+  height: 45px;
+  font-size: 17px;
+  color: #536941;
+  background-color: gold;
+  border: 1px solid gold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+/* Third Section */
+
+.third-part{
+  margin: 150px 0px 30px 0px;
+  text-align: center;
+  background-color:  rgba(83, 105, 66 , 0.1);
+}
+
+.third-part .container3 .txt{
+  margin: 50px 0px 0px 0px;
+}
+
+.third-part .container3 .txt h3{
+  padding: 100px 0px 0px 0px;
+  font-size: 40px;
+  font-weight: 500;
+  color: #3e5031;
+  margin: 0px 0px 25px 0px;
+}
+
+
+.third-part .container3 .imgs img{
+  margin: 0px 20px 100px 0px;
+}
+
+
+
+/* Last Part */
+.footer .container4{
+  margin-bottom: 20px;
+}
+.footer .container4 .left{
+  vertical-align: top;
+  display: inline-block;
+  margin: 0% 0% 0% 10%;
+  padding: 20px 30px 0px 0px;
+}
+
+.footer .container4 .left ul{
+  list-style: none;
+  display: inline-block;
+  margin: 0% 0% 0% 0% ;
+}
+
+.footer .container4 .left ul li{
+  display: inline-block;
+  margin: 0px 0px 0px 15px;
+}
+
+.footer .container4 .left ul li a{
+  text-decoration: none;
+  color: #256b3f;
+  font-size: 17px;
+}
+
+.footer .container4 .left ul li a:hover{
+  color: #000000;
+}
+
+.footer .container4 .center {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  margin: 0px 0px 0px 20%;
+}
+
+.footer .container4 .center img{
+  width: 60px;
+  height: 60px;
+}
+
+.footer .container4 .right{
+  vertical-align: top;
+  display: inline-block;
+  margin: 20px 0px 0px 27%;
+}
+
+.footer .container4 .right p{
+  color: #256b3f;
+  font-size: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,78 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.first-part{
+  margin-bottom: 20%;
+}
+
+.first-part .container1{
+  width: 90%;
+  margin: 100px auto;
+}
+
+.first-part .container1 .cards .card{
+  width: 60%;
+  float: left;
+  padding: 50px;
+}
+
+.first-part .container2 .img{
+  width: calc(100%/3);
+  float: left;
+  padding: 0px 10px;
+  box-sizing: border-box;
+}
+
+.first-part .container2 .img img{
+  width: 100%;
+}
+
+.clr{
+  clear: both;
+}
+
+
+/* ----------------------- */
+
+.cards .card{
+  width: calc(100% / 3);
+  float: left;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+.cards .card .card-content img{
+  width: 100%;
+}
+
+.cards .card .card-content {
+  position: relative;
+}
+
+.cards .card .card-content:hover .layer{
+  opacity: 1;
+}
+
+.cards .card .card-content .layer{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+}
+
+.cards .card .card-content .layer h3{
+  position: relative;
+  top: 45%;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,242 @@
+*{
+  font-family: 'Playfair Display';
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.first-part{
+  height: 60vh;
+  background-image:url('../../../../img/background.webp');
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0px 0px 90px 0px;
+}
+
+.first-part .navbar .container1 ul{
+  vertical-align: top;
+  margin: 30px 0px 0px 150px;
+  list-style: none;
+  display: inline-block;
+}
+
+.first-part .navbar .container1 ul li{
+  margin: 0px 40px 0px 0px;
+  display: inline-block;
+}
+
+.first-part .navbar .container1 ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.first-part .navbar .container1 ul li a:hover{
+  color: rgb(53, 164, 255);
+  transition: 0.2s;
+}
+
+
+.first-part .navbar .container1 ul li .btn{
+  padding: 15px 20px 15px 20px;
+  border: 1px solid;
+  border-radius:5% ;
+}
+
+.first-part .navbar .container1 a img{
+  vertical-align: top;
+  width: 60px;
+  height: 60px;
+  margin: 20px 600px 0px 160px;
+}
+
+.first-part .container1-1 h1{
+  text-align: center;
+  margin: 100px 0px 0px 0px;
+  font-size: 70px;
+  color: white;
+}
+
+
+/* Second Part */
+.second-part{
+  margin: 0px 0px 100px 0px;
+}
+
+.second-part .container2-1 .item1 .img{
+  display: inline-block;
+}
+
+.second-part .container2-1 .item1 .img  img{
+  margin: 50px 0px 0px 250px;
+}
+
+.second-part .container2-1 .item1 .txt{
+  vertical-align: top;
+  display: inline-block;
+  margin: 90px 0px 0px 150px;
+}
+
+.second-part .container2-1 .item1 .txt h3{
+  display: inline-block;
+  margin: 0px 0px 0px 0px;
+  font-size: 30px;
+  color: #536942;
+  font-weight: 400;
+}
+
+.second-part .container2-1 .item1 .txt p{
+  font-size: 17px;
+  line-height: 2;
+  color: #627c4e;
+}
+
+.second-part .container2-1 .item1 .txt p b{
+  color:#536942;
+  font-size: 23px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.second-part .container2-1 .item1 .txt a{
+  text-decoration: none;
+  color:#536942;
+  font-size: 17px;
+  padding: 15px 40px;
+  border: 1px solid #536942;
+  border-radius: 5px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.second-part .container2-1 .item1 .txt a:hover{
+  color: #9FCE00;
+  border-color: #9FCE00;
+  transition: 0.2s;
+}
+
+
+
+/* Third Part */
+.third-part .container3{
+  background-color:#F1F3EE;
+}
+
+.third-part .container3 .txt{
+  vertical-align: top;
+  margin: 60px 0px 60px 0px;
+  display: inline-block;
+  width: 50%;
+}
+
+.third-part .container3 .txt h3{
+  font-size: 40px;
+  color: #536942;
+  font-weight: 400;
+  margin: 0px 0px 50px 150px;
+}
+
+.third-part .container3 .txt p{
+  font-size: 21px;
+  line-height: 2;
+  color: #627c4e;
+  margin: 0px 0px 0px 160px;
+}
+
+.third-part .container3 .imgs{
+  vertical-align: top;
+  display: inline-block;
+  width: 40%;
+  margin: 150px 0px 0px 150px;
+}
+
+.third-part .container3 .imgs .up{
+  display: inline-block;
+}
+
+.third-part .container3 .imgs .bottom{
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.third-part .container3 .imgs .up img,
+.third-part .container3 .imgs .bottom img{
+  text-align: center;
+  width: 60px;
+  height: 60px;
+}
+
+.third-part .container3 .imgs .up .bg1,
+.third-part .container3 .imgs .up .bg2,
+.third-part .container3 .imgs .bottom .bg3,
+.third-part .container3 .imgs .bottom .bg4{
+  display: inline-block;
+  text-align: center;
+  margin: 0px 120px 0px 0px;
+  background-color:white;
+  border-radius: 100%;
+  padding: 10px;
+}
+
+
+/* Last Part */
+.footer .container4{
+  margin-bottom: 30px;
+}
+
+.footer .container4 .left{
+  display: inline-block;
+  margin: 0% 0% 0% 10%;
+  padding: 0px 30px 0px 0px;
+  margin-top: 55px;
+}
+
+.footer .container4 .left ul{
+  list-style: none;
+  display: inline-block;
+  margin: 0% 0% 0% 0% ;
+}
+
+.footer .container4 .left ul li{
+  display: inline-block;
+  margin: 0px 0px 0px 15px;
+}
+
+.footer .container4 .left ul li a{
+  text-decoration: none;
+  color: #256b3f;
+  font-size: 20px;
+}
+
+.footer .container4 .left ul li a:hover{
+  color: #000000;
+}
+
+.footer .container4 .center {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  margin: 30px 0px 0px 16%;
+}
+
+.footer .container4 .center img{
+  width: 60px;
+  height: 60px;
+}
+
+.footer .container4 .right{
+  display: inline-block;
+  margin: 0px 0px 0px 27%;
+}
+
+.footer .container4 .right p{
+  color: #256b3f;
+  font-size: 20px;
+}
+
+
+
+
+
+
+

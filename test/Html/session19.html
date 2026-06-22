@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRUD System</title>
+  <link rel="stylesheet" href="../css/all.min.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/session19.css">
+</head>
+<body>
+
+  <div class="container mt-5">
+
+    <h1>CRUD System</h1>
+    <hr>
+
+    
+    <label for="productName" class="mt-4 mb-2">productName</label>
+    <input type="text" name="productName" id="productName" class="form-control">
+    
+    <label for="productPrice" class="mt-4 mb-2">productPrice</label>
+    <input type="number" name="productPrice" id="productPrice" class="form-control">
+    
+    <label for="productCat" class="mt-4 mb-2">productCat</label>
+    <input type="text" name="productCat" id="productCat" class="form-control">
+    
+    <label for="productDesc" class="mt-4 mb-2">productDesc</label>
+    <input type="text" name="productDesc" id="productDesc" class="form-control">
+
+    <button class="btn btn-outline-danger mt-4" onclick="addOrUpdate()" id="addBtn">Add Product</button>
+
+    <input type="search" name="search" id="search" class="form-control my-4" placeholder="Search..." onkeyup="search(this.value)">
+
+
+    <table class="table my-5">
+      <thead>
+        <tr>
+          <th>index</th>
+          <th>productName</th>
+          <th>productPrice</th>
+          <th>productCat</th>
+          <th>productDesc</th>
+          <th>UPDATE</th>
+          <th>DELETE</th>
+        </tr>
+      </thead>
+
+      <tbody id="rowData">
+        
+      </tbody>
+    </table>
+
+  </div>
+
+
+
+<script src="../js/bootstrap.bundle.min.js"></script>
+<script src="../js/session19.js"></script>
+</body>
+</html>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +9,9 @@
   <link rel="stylesheet" href="../css/bootstrap.min.css">
   <link rel="stylesheet" href="../css/crud.css">
 </head>
+
 <body>
-  
+
   <div class="container my-5 py-5">
     <h1>CRUD System</h1>
     <hr>
@@ -28,23 +30,27 @@
 
     <button id="mainBTN" class="btn btn-outline-danger mt-4" onclick="addOrUpdateCheck()">Add Product</button>
 
-    <input type="search" placeholder="Search....." id="search" name="search" class="form-control my-5" onkeyup="search(this.value)">
+    <input type="search" placeholder="Search....." id="search" name="search" class="form-control my-5"
+      onkeyup="search(this.value)">
 
-    <table class="table">
-      <thead>
-        <th>Index</th>
-        <th>productName</th>
-        <th>productPrice</th>
-        <th>productCat</th>
-        <th>productDesc</th>
-        <th>UPDATE</th>
-        <th>DELETE</th>
-      </thead>
 
-      <tbody id="rowData">
+    <div class="table-responsive">
+      <table class="table">
+        <thead>
+          <th>Index</th>
+          <th>productName</th>
+          <th>productPrice</th>
+          <th>productCat</th>
+          <th>productDesc</th>
+          <th>UPDATE</th>
+          <th>DELETE</th>
+        </thead>
 
-      </tbody>
-    </table>
+        <tbody id="rowData">
+
+        </tbody>
+      </table>
+    </div>
 
   </div>
 
@@ -52,4 +58,5 @@
   <script src="../js/bootstrap.bundle.min.js"></script>
   <script src="../js/crud.js"></script>
 </body>
+
 </html>

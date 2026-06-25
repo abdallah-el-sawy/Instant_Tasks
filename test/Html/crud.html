@@ -1,62 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CRUD System</title>
+  <title>Crud System</title>
   <link rel="stylesheet" href="../css/all.min.css">
   <link rel="stylesheet" href="../css/bootstrap.min.css">
   <link rel="stylesheet" href="../css/crud.css">
 </head>
-
 <body>
-
-  <div class="container my-5 py-5">
-    <h1>CRUD System</h1>
+  
+  <div class="container mt-5">
+    <button class="btn btn-outline-danger mb-5" id="logout" onclick="logout()">Logout <i class="fas fa-sign-out-alt"></i></button>
+    <h1>CRUD System </h1>
     <hr>
 
     <label for="productName" class="mt-4 mb-2">productName</label>
     <input type="text" name="productName" id="productName" class="form-control">
-
+    
     <label for="productPrice" class="mt-4 mb-2">productPrice</label>
     <input type="number" name="productPrice" id="productPrice" class="form-control">
-
+    
     <label for="productCat" class="mt-4 mb-2">productCat</label>
     <input type="text" name="productCat" id="productCat" class="form-control">
-
+    
     <label for="productDesc" class="mt-4 mb-2">productDesc</label>
     <input type="text" name="productDesc" id="productDesc" class="form-control">
 
-    <button id="mainBTN" class="btn btn-outline-danger mt-4" onclick="addOrUpdateCheck()">Add Product</button>
+    <button class="btn btn-outline-danger mt-4" id = 'toggleBTN' onclick="addOrUpdateCheck()">Add Product</button>
 
-    <input type="search" placeholder="Search....." id="search" name="search" class="form-control my-5"
-      onkeyup="search(this.value)">
+    <input type="search" name="search" id="search" class="form-control my-4" placeholder="Search..." onkeyup="search(this.value)">
 
 
-    <div class="table-responsive">
-      <table class="table">
-        <thead>
-          <th>Index</th>
+    <table class="table my-5">
+      <thead>
+        <tr>
+          <th>index</th>
           <th>productName</th>
           <th>productPrice</th>
           <th>productCat</th>
           <th>productDesc</th>
           <th>UPDATE</th>
           <th>DELETE</th>
-        </thead>
+        </tr>
+      </thead>
+      <tbody id="rowData">
+        
+      </tbody>
+    </table>
 
-        <tbody id="rowData">
-
-        </tbody>
-      </table>
-    </div>
 
   </div>
 
 
+  
   <script src="../js/bootstrap.bundle.min.js"></script>
-  <script src="../js/crud.js"></script>
+  <script src="../js/log.js"></script>
 </body>
-
 </html>

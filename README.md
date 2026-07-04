@@ -20,9 +20,9 @@ This repository is intended for personal learning and reference. It may contain 
 
 ## Preview
 ### Lab2 : JS
-#### {https://abdallah-el-sawy.github.io/Instant_Tasks/lab2_js/Html/login.html}
+https://abdallah-el-sawy.github.io/Instant_Tasks/lab2_js/Html/login.html
 
 ##### --------------
 
 ### Lab3 : JS
-#### {https://abdallah-el-sawy.github.io/Instant_Tasks/lab3_js/html/index.html}
+https://abdallah-el-sawy.github.io/Instant_Tasks/lab3_js/html/index.html

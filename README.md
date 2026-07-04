@@ -19,4 +19,10 @@ The purpose of this repository is to track learning progress, demonstrate practi
 This repository is intended for personal learning and reference. It may contain code examples and exercises directly related to the course curriculum at Instant Academy.
 
 ## Preview
-https://abdallah-el-sawy.github.io/Instant_Tasks/test/Html/login.html
+### Lab2 : JS
+#### {https://abdallah-el-sawy.github.io/Instant_Tasks/lab2_js/Html/login.html}
+
+##### --------------
+
+### Lab3 : JS
+#### {https://abdallah-el-sawy.github.io/Instant_Tasks/lab3_js/html/index.html}
